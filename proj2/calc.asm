@@ -65,7 +65,7 @@ str_to_int:             ;перевод из строки в число
 
 ; [in]
 ; rax - integer
-; number1 - string
+; buffer - string
 int_to_str              ;функция перевода числа в строку 
     mov rdi, buffer
     add rdi, 15
